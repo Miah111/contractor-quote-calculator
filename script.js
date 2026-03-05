@@ -1,4 +1,4 @@
-fuction calcuateQuote() {
+function calculateQuote() {
   alert("Button works!");
 }
 let squareFeet = parseFloat(document.getElementById("squareFeet").value);
