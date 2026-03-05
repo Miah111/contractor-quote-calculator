@@ -1,4 +1,6 @@
-function calculateQuote(){
+function calculateQuote() {
+  alter("Button works");
+  document.getElementById("result").innerText = "Total:$100";}
 
 let squareFeet = Number(document.getElementById("squareFeet").value);
   let jobRate = Number(document.getElementById("jobType").value);
