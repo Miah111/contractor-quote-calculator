@@ -1,6 +1,6 @@
 function calculateQuote() {
   alert("Button works!");
-}
+
 let squareFeet = parseFloat(document.getElementById("squareFeet").value);
   let jobRate = parseFloat(document.getElementById("jobType").value);
   let laborRate = parseFloat(document.getElementById("laborRate").value);
