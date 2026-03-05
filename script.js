@@ -1,5 +1,4 @@
 function calculateQuote(){
-  alert("Button works!");
 
 let squareFeet = Number(document.getElementById("squareFeet").value);
   let jobRate = Number(document.getElementById("jobType").value);
