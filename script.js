@@ -2,7 +2,7 @@ function calculateQuote() {
   let squareFeet = parseFloat(document.getElementById("squareFeet").value);
   let jobType = parseFloat(document.getElementById("jobType").value);
   let laborRate = parseFloat(document.getElementById("laborRate").value); 
-  let laborHours = parseFloat(document.getElementById("laborHours).value);
+  let laborHours = parseFloat(document.getElementById("laborHours").value);
   let materials = parseFloat(document.getElementById("materials").value);
   let profit = parseFloat(document.getElementById("profit").value);
   let tax = parseFloat(document.getElementById("tax").value);
