@@ -19,4 +19,6 @@ if(isNaN(squareFeet) || isNaN(laborRate) || isNaN(laborHours)){
   let total = subtotal + profitAmount + taxAmount;
   
 document.getElementById("result").innerHTML = "Total Quote: $" + total.toFixed(2);
+  document.getElementById("breakdown").innerHTML = "Job Cost: $" + jobCost.toFixed(2) + "<br>" + "Labor Cost: $" + laborCost.toFixed(2) + "<br>" +
+    "Materials: $" + materials.toFixed(2) + "<br>" + "Profit: $" + profitAmount.toFixed(2) + "<br>" + "Tax: $" + taxAmount.toFixed(2);
 }
