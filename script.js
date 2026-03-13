@@ -28,7 +28,7 @@ if(isNaN(squareFeet) || isNaN(laborRate) || isNaN(laborHours)){
     [];
   quotes.push(quote);
 
-  localStorage.setItem("quote",
+  localStorage.setItem("quotes",
   JSON.stringify(quotes));
 
   displayQuotes();
